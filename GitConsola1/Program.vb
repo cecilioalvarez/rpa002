@@ -52,14 +52,10 @@ Module Program
             sumapar = sumapar + numeropar
         Next
         Console.WriteLine(sumapar)
-            'tabla de multiclicar con cualquier numero
+                    'tabla de multiclicar con cualquier numero
         Dim numero As Decimal = Console.ReadLine()
         For multiclicacion = 1 To 10
-            Console.WriteLine("multiclicación" & multiclicacion & "= " & numero * multiclicacion)
-        Next
-
-
-
+            Console.WriteLine("multiclicación " & multiclicacion & "= " & numero * multiclicacion)
 
 End Module
 
