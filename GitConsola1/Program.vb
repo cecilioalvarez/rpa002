@@ -20,7 +20,7 @@ Module Program
             Console.WriteLine(contador)
         Next
 
-        Console.WriteLine("rama de sergio")
+        Console.WriteLine("rama de gontzal")
 
 
     End Sub
