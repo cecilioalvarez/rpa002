@@ -1,36 +1,30 @@
 Imports System
 
 Module Program
-    Sub Main(args As String())mports System
-				
-Public Module Module1
+
 	Public Sub Main()
 		Console.WriteLine("Hello World")
-		console.WriteLine("hola soy jessica")
-		console.WriteLine("contador")
-		dim contador as integer 
-		for contador = 1 to 10
-		console.WriteLine("contador")
-		console.WriteLine()
-	next
-            Public Module Module1
-	Public Sub Main()
+		Console.WriteLine("hola soy jessica")
+		Console.WriteLine("contador")
+		Dim contador As Integer
+		For contador = 1 To 10
+			Console.WriteLine("contador")
+			Console.WriteLine()
+		Next
+
 		Console.WriteLine("Hello World")
-		console.WriteLine("hola soy jessica")
-		console.WriteLine("contador")
-		dim contador as integer 
-		for contador = 1 to 10
-		console.WriteLine("contador")
-		console.WriteLine()
-	next
-		
-		
+		Console.WriteLine("hola soy jessica")
+		Console.WriteLine("contador")
+		Dim contador2 As Integer
+		For contador2 = 1 To 10
+			Console.WriteLine("contador")
+			Console.WriteLine()
+		Next
+
+
 	End Sub
 End Module
-		
-		
-	End Sub
-End Module
+
 
 
 
