@@ -19,8 +19,7 @@ Module Program
         For contador = 1 To 10
             Console.WriteLine(contador)
         Next
-
-        Console.WriteLine("rama de mikel")
+console.writeline("programa de mikel")
 
 
     End Sub
