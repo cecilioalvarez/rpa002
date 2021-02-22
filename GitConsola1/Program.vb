@@ -25,6 +25,12 @@ Module Program
 	End Sub
 End Module
 
-
+Public Module Module1
+	Public Sub Main(args as string))
+	'dim numero as integer'
+		Console.WriteLine("Hello World")
+		for numero as integer = 1 to 10
+		console.WriteLine("numero * 7")
+	next 
 
 
