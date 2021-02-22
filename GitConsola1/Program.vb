@@ -10,7 +10,7 @@ Module Program
 
         Console.WriteLine("***************")
 
-        For contador = 0 To 5
+        For contador = 1 To 5
             Console.WriteLine("hola")
 
         Next
