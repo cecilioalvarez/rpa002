@@ -24,6 +24,16 @@ Module Program
         For contador = 0 To 10 Step 2
             Console.WriteLine(contador)
         Next
+
+        Console.WriteLine("hola")
+
+        For comensal = 1 To 4 Step 2
+            Console.WriteLine(comensal)
+            Console.WriteLine("pareja admitida")
+            Console.WriteLine("**************")
+        Next
+
+
     End Sub
 End Module
 
