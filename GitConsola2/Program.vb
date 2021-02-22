@@ -23,6 +23,15 @@ Module Program
         Next
         Console.WriteLine(bolsa)
 
+        Dim sumaPares = 0
+        For otro As Integer = 0 To 10
+            sumaPares = sumaPares + otro * 2
+
+        Next
+        Console.WriteLine(sumaPares)
+
+
+
 
 
 
