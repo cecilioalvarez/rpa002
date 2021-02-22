@@ -15,6 +15,10 @@ Module Program
 
         Next
 
+        For contador = 1 To 10
+            Console.WriteLine(contador)
+        Next
+
 
     End Sub
 End Module
