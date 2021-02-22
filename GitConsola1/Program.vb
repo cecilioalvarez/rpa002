@@ -17,5 +17,15 @@ Module Program
         Console.WriteLine("hola amaia")
 
 
+        For contador = 1 To 10
+        Console.WriteLine(contador)
+        Next
+
+        For contador 0 = 10 step 2
+        Console.WriteLine(contador)
+        Next
+        End Sub
+    End Module
+End Module
     End Sub
 End Module
