@@ -15,7 +15,6 @@ Module Program
 
         Next
         Console.WriteLine("hola amaia")
-    Console.WriteLine("hola SOY XABI")
 
 
     End Sub
