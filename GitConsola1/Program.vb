@@ -19,6 +19,10 @@ Module Program
         For contador = 1 To 10
             Console.WriteLine(contador)
         Next
+        
+        For contador = 0 To 10 Step 2
+            Console.WriteLine(contador)
+            Console.WriteLine("hola gorka")
 
         Console.WriteLine("rama de gorka")
 
