@@ -15,13 +15,15 @@ Module Program
 
         Next
 
-
+        ' mas sencillo de vb.net
+        ' bucle va de uno en uno
         For contador = 1 To 10
             Console.WriteLine(contador)
         Next
+        ' este otro bucle va de dos en dos
+        For contador = 0 To 10 Step 2
+            Console.WriteLine(contador)
 
-        Console.WriteLine("rama de ander")
-
-
+        Next
     End Sub
 End Module
