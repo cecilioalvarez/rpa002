@@ -37,7 +37,6 @@ Module Program
             Console.WriteLine(comensal)
             Console.WriteLine("pareja admitida")
             Console.WriteLine("********************")
-
         Next
 
 
