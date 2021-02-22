@@ -1,0 +1,16 @@
+Imports System
+
+Module Program
+    Sub Main(args As String())
+        'sumar primeros 10 numeros
+        Dim numero1 As Integer
+
+        For numero = 0 To 10
+            numero1 = numero + 1
+            Console.WriteLine(numero1)
+        Next
+
+
+
+    End Sub
+End Module
