@@ -26,7 +26,7 @@ Module Program
 
         Console.WriteLine("rama de gorka")
 
-        For num = 0 To 10 Step 2
+        For num = 0 To 20 Step 2
             bolsa = bolsa + num
             Console.WriteLine(bolsa)
             Console.WriteLine("hola gorka")
