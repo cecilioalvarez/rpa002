@@ -29,15 +29,28 @@ Module Program
         nota(0) = 3
         nota(1) = 6
         nota(2) = 9
-        Console.WriteLine("los aprobados")
-        For numero As Integer = 0 To 2
+        'Console.WriteLine("los aprobados")
+        'For numero As Integer = 0 To 2
 
-            If nota(numero) >= 5 Then
-                Console.WriteLine(nota(numero))
+        '    If nota(numero) >= 5 Then
+        '        Console.WriteLine(nota(numero))
+        '    End If
+
+
+        'Next
+
+        Dim guardada As Integer = 0
+        ' el array o lista siempre tiene una propiedad de longitud
+        For numero As Integer = 0 To nota.Length - 1
+
+            If (nota(numero) > guardada) Then
+                guardada = nota(numero)
             End If
 
-
         Next
+        Console.WriteLine(guardada)
+
+
 
 
 
