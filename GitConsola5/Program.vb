@@ -39,16 +39,37 @@ Module Program
 
         'Next
 
-        Dim guardada As Integer = 0
-        ' el array o lista siempre tiene una propiedad de longitud
-        For numero As Integer = 0 To nota.Length - 1
+        'Dim guardada As Integer = 0
+        '' el array o lista siempre tiene una propiedad de longitud
+        'For numero As Integer = 0 To nota.Length - 1
 
-            If (nota(numero) > guardada) Then
-                guardada = nota(numero)
+        '    If (nota(numero) > guardada) Then
+        '        guardada = nota(numero)
+        '    End If
+
+        'Next
+        'Console.WriteLine(guardada)
+
+        Dim misNotas() As Decimal = {4.5, 2.2, 7.2, 8.4}
+        ' guarda la ultima nota que hemos recorrido
+        Dim notaGuardada As Decimal = 0.0
+        Dim posicion As Integer = 0
+
+        For numero As Integer = 0 To misNotas.Length - 1
+            ' nota que esta en la posicion 0 (4,5)
+            ' nota pasa a valer 4,5
+            'nota pasa a valer 4,5
+            'nota pasa a veler 7,2
+            'nota pasa a veler 8,4
+            If (notaGuardada < misNotas(numero)) Then
+
+                notaGuardada = misNotas(numero)
+                posicion = numero
             End If
+            Console.WriteLine("la nota mas alta ahora es " & notaGuardada)
+            Console.WriteLine(numero)
 
         Next
-        Console.WriteLine(guardada)
 
 
 
