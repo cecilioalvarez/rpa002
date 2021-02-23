@@ -109,7 +109,7 @@ Module Program
         examen(8) = 2
         examen(9) = 1
         For resultado As Integer = 0 To 10
-            If examen(resultado) > 5 Then
+            If examen(resultado) >= 5 Then
                 Console.WriteLine("has aprovado " & examen(resultado))
             End If
         Next
