@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ConsoleApp2.bucle.arrays.SOLUCION2", "ConsoleApp2.bucle.arrays.SOLUCION2\ConsoleApp2.bucle.arrays.SOLUCION2.vbproj", "{05ECD9E3-E524-4CE5-8F1F-39968000F34B}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "ConsoleApp1.bucle.arrays.nota.mas.alta", "..\ConsoleApp2.bucle.arrays.solucion.aprovado\ConsoleApp1.bucle.arrays.nota.mas.alta\ConsoleApp1.bucle.arrays.nota.mas.alta.vbproj", "{3F288F71-641C-4A98-8C56-550D29CC8FD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05ECD9E3-E524-4CE5-8F1F-39968000F34B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05ECD9E3-E524-4CE5-8F1F-39968000F34B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05ECD9E3-E524-4CE5-8F1F-39968000F34B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05ECD9E3-E524-4CE5-8F1F-39968000F34B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F288F71-641C-4A98-8C56-550D29CC8FD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F288F71-641C-4A98-8C56-550D29CC8FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F288F71-641C-4A98-8C56-550D29CC8FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F288F71-641C-4A98-8C56-550D29CC8FD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61EBFB3D-334F-45A9-8849-49934FC3751B}
+	EndGlobalSection
+EndGlobal
