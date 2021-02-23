@@ -10,8 +10,8 @@ Module Program
         notas(1) = 4
         notas(2) = 8
 
-        For i As Integer = 0 To 2
-            Console.WriteLine(notas(i))
+        For numero As Integer = 0 To 2
+            Console.WriteLine(notas(numero))
 
         Next
 
