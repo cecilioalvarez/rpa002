@@ -56,8 +56,12 @@ Module Program
         Dim numero As Decimal = Console.ReadLine()
         For multiclicacion = 1 To 10
             Console.WriteLine("multiclicación " & multiclicacion & "= " & numero * multiclicacion)
-Bucle Nuevo
+'Bucle Nuevo
 
+Imports System
+
+Module Program
+    Sub Main(args As String())
         Console.writeline("introduce indice")
         Dim numero As Integer = 0
         Do While numero < 10
@@ -65,7 +69,6 @@ Bucle Nuevo
             numero = numero + 1
         Loop
 
-End Module
 
     End Sub
 End Module
