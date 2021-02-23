@@ -33,6 +33,22 @@ Imports System
 				
 Public Module Module1
 	Public Sub Main()
+
+
+
+Imports System
+				
+Public Module Module1
+	Public Sub Main()
+		Console.WriteLine("Hello World")
+		dim indice as integer = 0
+		do while indice < 10
+			console.WriteLine(indice)
+	indice = indice + 1
+		loop
+	End Sub
+End Module
+
 		Console.WriteLine("Hello World")
 		dim numero as integer = 3
 		console.WriteLine(numero)
