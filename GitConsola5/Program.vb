@@ -66,11 +66,11 @@ Module Program
                 notaGuardada = misNotas(numero)
                 posicion = numero
             End If
-            Console.WriteLine("la nota mas alta ahora es " & notaGuardada)
-            Console.WriteLine(numero)
+
 
         Next
-
+        Console.WriteLine("la nota mas alta ahora es " & notaGuardada)
+        Console.WriteLine(posicion)
 
 
 
