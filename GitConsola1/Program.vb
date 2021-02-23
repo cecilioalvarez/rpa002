@@ -36,7 +36,7 @@ Public Module Module1
 			
 		do
 		Console.WriteLine("hola")
-					indic e2 = indice2 +1
+					indice2 = indice2 +1
 		loop until indice2 > 10
 	end sub
 		
