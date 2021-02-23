@@ -18,6 +18,19 @@ Module Program
             indice = indice + 1
         Loop
 
+        Dim indice2 As Integer = 0
+
+        ' es que este siempre se ejecuta la primera vez al menos
+        Do
+            Console.WriteLine("hola")
+            ' incrementamos el indice 
+            indice2 = indice2 + 1
+            'hasta que el indice sea mayor 10
+        Loop Until indice2 > 10
+
+
+
+
 
 
     End Sub
