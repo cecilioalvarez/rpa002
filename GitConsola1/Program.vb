@@ -33,6 +33,22 @@ Public Module Module1
 			console.WriteLine(indice)
 	indice = indice + 1
 		loop
+		
+		
+						
+Public Module Module1
+	Public Sub Main()
+		dim nota (3) as integer
+		nota(0) = 3
+		nota(1) = 6
+		nota(2) = 9
+		console.WriteLine("el mayor")
+	for numero  as integer = 0 to 2  
+	next 
+		if nota (3) = > 5
+			console.WriteLine("nota mayor" (3))
+		end if
+		
 			
 		do
 		Console.WriteLine("hola")
