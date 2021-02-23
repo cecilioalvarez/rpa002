@@ -15,6 +15,8 @@ Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "GitConsola5", "GitConsola5\
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GitConsola6", "GitConsola6\GitConsola6.vbproj", "{FA6DA101-FD83-462B-B5BD-29870E6BAA85}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GitConsole6A", "GitConsole6A\GitConsole6A.vbproj", "{D6062BB6-8ED4-42C9-904A-30F3D4759F88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{FA6DA101-FD83-462B-B5BD-29870E6BAA85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA6DA101-FD83-462B-B5BD-29870E6BAA85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA6DA101-FD83-462B-B5BD-29870E6BAA85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6062BB6-8ED4-42C9-904A-30F3D4759F88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6062BB6-8ED4-42C9-904A-30F3D4759F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6062BB6-8ED4-42C9-904A-30F3D4759F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6062BB6-8ED4-42C9-904A-30F3D4759F88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
