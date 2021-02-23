@@ -21,6 +21,8 @@ Module Program
 
         Console.WriteLine(sumaTodos / misNotas.Length)
         Console.WriteLine(Math.Round(sumaTodos / misNotas.Length))
+        Console.WriteLine("amaia2")
+
 
     End Sub
 End Module
