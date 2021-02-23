@@ -21,6 +21,29 @@ Module Program
 			Console.WriteLine()
 		Next
 
+
+Imports System
+				
+Public Module Module1
+	Public Sub Main()
+		Console.WriteLine("Hello World")
+			Console.WriteLine("Hello World")
+		dim indice as integer = 0
+		do while indice < 10
+			console.WriteLine(indice)
+	indice = indice + 1
+		loop
+			
+		do
+		Console.WriteLine("hola")
+					indic e2 = indice2 +1
+		loop until indice2 > 10
+	end sub
+		
+	End Sub
+End Module
+
+
 		Console.WriteLine("Hello World")
 		For numero As Integer = 1 To 10
 			Console.WriteLine(numero * 7)
