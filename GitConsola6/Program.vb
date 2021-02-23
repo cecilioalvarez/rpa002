@@ -9,6 +9,7 @@ Module Program
         Console.WriteLine(misNotas.Length)
 
         Dim sumaTodos As Integer = 0
+        '4 iteraciones
 
         For i As Integer = 0 To misNotas.Length - 1
 
@@ -19,6 +20,7 @@ Module Program
         Next
 
         Console.WriteLine(sumaTodos / misNotas.Length)
+        Console.WriteLine(Math.Round(sumaTodos / misNotas.Length))
 
     End Sub
 End Module
