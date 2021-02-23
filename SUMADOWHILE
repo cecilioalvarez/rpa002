@@ -1,0 +1,13 @@
+Imports System
+
+Module Program
+    Sub Main(args As String())
+        Dim INCREMENTO As Integer = 0
+        Dim SUMA As Integer = 0
+        Do While INCREMENTO < 10
+            INCREMENTO = INCREMENTO + 1
+            SUMA = SUMA + INCREMENTO
+            Console.WriteLine(SUMA)
+        Loop
+    End Sub
+End Module
