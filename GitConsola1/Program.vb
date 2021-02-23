@@ -1,27 +1,20 @@
-Imports System
+Module Program_007
+	Sub Main(args As String())
 
-Module Program
-    Sub Main(args As String())
-        Console.WriteLine("Hello World!")
-        Console.WriteLine("hola")
-        Console.WriteLine("hola2")
-        Console.WriteLine("hola3")
-        Dim contador As Integer
-
-        Console.WriteLine("***************")
-
-        For contador = 1 To 5
-            Console.WriteLine("hola")
-
-        Next
+		Dim notas() As Decimal = {2, 4, 6, 8, 7, 10}
 
 
-        For contador = 1 To 10
-            Console.WriteLine(contador)
-        Next
+		Dim notaAlta As Integer = 0
+		Dim contador As Integer = 0
 
-Console.WriteLine("rama de Erlantz")
+		For contador To notas.Length - 1
 
+			If notaAlta < notas(contador) Then
+				notaAlta = notas(contador)
+			End If
 
-    End Sub
+		Next
+		Console.WriteLine("la nota mas alta es " & notaAlta)
+
+	End Sub
 End Module
